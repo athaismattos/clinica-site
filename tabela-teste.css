@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poetsen+One&display=swap');
+
+table{
+    padding: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    border-spacing: 1px;
+    margin-bottom: 50px;
+}
+table th{
+    text-align: center;
+    padding: 10px;
+    background-color: #ABC2AB;
+}
+table td{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+table tr:nth-child(even) td{
+    background-color: #ebfaeb;
+}
+table tr:hover td{
+    background-color: #ABC2AB;
+    cursor: pointer;
+}

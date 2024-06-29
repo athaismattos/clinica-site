@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poetsen+One&display=swap');
+form{
+    text-align: center;
+    padding-top: 30px;
+    background-color: #ABC2AB;
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+    margin-left: 365px;
+}
+label{
+    margin: 10px;
+    padding: 3px 20px 3px 20px;
+    background-color: #ebfaeb;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.bt{
+    padding: 10px;
+    background-color: #ebfaeb;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 0;
+    box-shadow: #083008;
+    font-family: "Josefin Sans", sans-serif;
+}
+input{
+    width: 200px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ebfaeb;
+    font-family: "Josefin Sans", sans-serif;
+}
+textarea{
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ebfaeb;
+    resize: none;
+}

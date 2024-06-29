@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="main-page.css">
+    <link rel="stylesheet" href="form-teste.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar">
+        <h1>Menu</h1>
+        <ul>
+            <li><a href="main-page.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a Clínica</a></li>
+            <li><a href="hora-atend.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <audio autoplay loop>
+            <source src="reverence.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+    </div>
+
+    <div class="main-content">
+        <div class="header-contato"><div class="t">Contato</div></div>
+        <div class="content-contato">
+            <div>Estamos te esperando. Entre em contato conosco.</div>
+        </div>
+        <div class="contatos">
+            <p>Telefone: (XX)XXXXX-XXXX</p>
+            <p>Whatsapp: (XX)XXXXX-XXXX</p>
+            <p>Endereço: Rua XXXXX XX XXXXXXX, n° XXXX, Bairro XXXXXX XXXXX</p><br>
+
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916246075636!2d2.2944812999999997!3d48.858370099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTorre%20Eiffel!5e0!3m2!1spt-BR!2sbr!4v1719518389931!5m2!1spt-BR!2sbr" style="border: 1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form onsubmit="">
+                <label for="inome">Nome</label><br>
+                <input type="text" name="nome" id="inome"/><br><br>
+        
+                <label for="iemail">Email</label><br>
+                <input type="email" name="email" id="iemail"/><br><br>
+        
+                <label for="iassunto">Assunto</label><br>
+                <input type="text" name="assunto" id="iassunto"/><br><br>
+        
+                <label for="imensagem" class="msg">Mensagem</label><br>
+                <textarea name="message" id="imensagem"></textarea><br><br>
+        
+                <input class="bt" type="submit" value="Enviar"/>
+                <input class="bt" type="reset" value="Limpar"/>
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            <h5>Nossos Contatos</h5>
+            <p><strong>Telefone:</strong> <i>(XX)XXXXX-XXXX </i><strong>Whatsapp:</strong> <i>(XX)XXXXX-XXXX</i> <strong>Instagram:</strong> <i>@XXXXXXXXXXXXX </i><strong>E-mail:</strong> <i>renovo@clinica.com</i></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
